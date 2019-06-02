@@ -17,7 +17,6 @@ public class RandomCircles extends GraphicsProgram {
 
 		Random rand = new Random();
 
-		this.setSize(1920, 1080);
 		for (int i = 1; i < 50; i++) {
 			float r = rand.nextFloat();
 			float g = rand.nextFloat();
